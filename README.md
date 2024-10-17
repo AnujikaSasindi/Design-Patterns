@@ -55,5 +55,6 @@ This pattern lets you ensure that a class has only one instance, while providing
 
 _Code Explanation:_
 
+In the code, coffeeMachine1 and coffeeMachine2 are both references to the same CoffeeMachine instance. As a result, calling makeCoffee on either produces a coffee, and the console output shows that the two variables are equal (true), demonstrating that only one instance exists.
 
 
